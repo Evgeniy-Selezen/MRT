@@ -1,5 +1,6 @@
 @import "cart";
 @import "menu";
+@import "fonts/DotGothic16/DotGothic16";
 header {
     background-color: #43b1d2;
 }
@@ -12,6 +13,9 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+ body {
+     font-family: 'DotGothic16', sans-serif;
+ }
 .header_phone {
     display: flex;
     justify-content: flex-end;
